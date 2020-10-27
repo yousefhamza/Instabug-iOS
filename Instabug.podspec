@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Instabug"
-  s.version      = "1.3"
+  s.version      = "1.3.1"
   s.summary      = "Bug reporting for mobile apps. Learn more at http://instabug.com"
   s.homepage     = "http://instabug.com"
   s.license      = {
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     }
   s.author       = { "Instabug" => "contactus@instabug.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :http => 'https://ios-releases.instabug.com/release/1.3/archive.zip' }
+  s.source       = { :http => 'https://ios-releases.instabug.com/release/1.3.1/archive.zip' }
   s.source_files = 'Instabug.framework/Versions/A/Headers/*.{h}'
   s.resources    = 'Instabug.bundle'
   s.preserve_paths =  'Instabug.framework/*', 'Instabug.bundle'
