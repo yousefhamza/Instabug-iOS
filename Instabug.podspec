@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "Instabug"
-  s.version      = "7.2.3"
+  s.version      = "7.2.4"
   s.summary      = "Bug reporting for mobile apps. Learn more at http://instabug.com"
   s.homepage     = "http://instabug.com"
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
   s.author       = { "Instabug" => "contactus@instabug.com" }
   s.platform     = :ios, '8.0'
-  s.source       = { :http => 'https://ios-releases.instabug.com/release/7.2.3/archive.zip' }
+  s.source       = { :http => 'https://ios-releases.instabug.com/release/7.2.4/archive.zip' }
   s.source_files = 'Instabug.framework/Headers/*.{h}'
   s.preserve_paths =  'Instabug.framework/*'
   s.frameworks   = 'AVFoundation', 'CoreGraphics', 'CoreMotion', 'SystemConfiguration', 'CoreTelephony', 'UIKit', 'CoreMedia', 'CoreVideo', 'CoreData'
